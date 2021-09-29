@@ -192,8 +192,11 @@ def secretWoods():
         gameOver()
 
     # option 3 : give geode
-    elif (pcmd == "You give the geode to the wizard"):
-        input("press enter >")
+    elif (pcmd == "give geode"):
+        print ("You give the geode to the wizard!")
+        print("press enter >")
+        player["score"] = int(player["score"]) + 400
+        print( "Your score increased to: " + str(player["score"]) )
         gameOver()
 
 def introStory():
