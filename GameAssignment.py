@@ -16,7 +16,7 @@ player = {
 paths = {
     "path1" : "To the Village",
     "path2" : "To Secret Woods",
-    "path3" : "To Marnie's Ranch"
+    "path3" : "To Ranch"
 }
 
 # anytime gamer mines rock, they will get a random item
