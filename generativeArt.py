@@ -34,7 +34,7 @@ for i in range (40):
     painter.right(0)
 
 painter.pencolor("orange")
-painter.pensize(2)
+painter.pensize(3)
 for i in range (40):
     painter.forward(200)
     painter.right(20)
@@ -48,9 +48,37 @@ for i in range (40):
     painter.right(0)
 
 painter.pencolor("purple")
-painter.pensize(2)
+painter.pensize(3)
 for i in range (40):
     painter.forward(200)
+    painter.left(20)
+    painter.forward(30)
+    painter.right(60)
+    painter.forward(50)
+    painter.left(30)
+    painter.penup()
+    painter.setposition(0, 0)
+    painter.pendown()
+    painter.right(0)
+
+painter.pencolor("orange")
+painter.pensize(1)
+for i in range (40):
+    painter.forward(300)
+    painter.right(20)
+    painter.forward(30)
+    painter.left(60)
+    painter.forward(50)
+    painter.right(30)
+    painter.penup()
+    painter.setposition(0, 0)
+    painter.pendown()
+    painter.right(0)
+
+painter.pencolor("purple")
+painter.pensize(1)
+for i in range (40):
+    painter.forward(300)
     painter.left(20)
     painter.forward(30)
     painter.right(60)
