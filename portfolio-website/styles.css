@@ -338,8 +338,11 @@ a {
 }
 
 .case-study-image {
-  object-fit: contain;
-  pointer-events: none;
+  /* object-fit: contain;
+  pointer-events: none; */
+  width: 50%;
+  height: 50%;
+  float: right;
 }
 
 .more-margin {
