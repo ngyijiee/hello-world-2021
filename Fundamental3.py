@@ -1,4 +1,4 @@
-# this is Assignment 3
+# this is Fundamental 3
 
 import random
 
