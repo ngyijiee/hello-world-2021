@@ -1,4 +1,4 @@
-# this is Assignment 2
+# this is Fundamental 2
 
 # this is an object
 
