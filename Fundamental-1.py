@@ -1,4 +1,4 @@
-# this is Assignment 1
+# this is Fundamental 1
 
 # this is a variable
 f = 10
